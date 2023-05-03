@@ -1,0 +1,48 @@
+.firstline{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  
+    /* width: calc(100%/12*2); */
+  }
+  .downline{
+    height: 1px;
+    width: calc(100%/12*6);
+    background-color: rgb(104, 104, 104);
+  }
+  .expl{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .topname{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 20px;
+    width: calc(100%/12*4);
+  }
+  .priceamount{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 20px;
+    width: calc(100%/12*2);
+    padding-left: 10px;
+  }
+  .priceblock{
+    padding: 10px;
+  }
+  .gridprice{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    padding: 0px 30px;
+  }
+@media screen and (max-width: 660px) {
+  .gridprice{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .priceamount, .topname{
+    font-size: 15px;
+  }
+}

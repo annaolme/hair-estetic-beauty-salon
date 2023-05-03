@@ -1,0 +1,56 @@
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top: 100px;
+}
+body{
+  position: relative;
+  width: calc(100%/12*12);
+ 
+}
+
+
+
+main{
+  height: auto;
+  width: calc(100%/12*12);
+}
+
+
+
+
+
+
+
+
+
+.divider{
+  
+  height: 400px;
+  background: url("./components/img/green-leaf.jpg")center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 25px;
+}
+.white-back{
+  background-color: rgb(255, 255, 255, 0.5);
+  font-family: "Open Sans";
+  border-radius: 5px;
+  width: calc(100%/12*6);
+  padding: 15px;
+
+}
+.whitebookbtn{
+  width: 200px;
+  height: 45px;
+  background-color:rgb(181,138,139) ;
+  color: rgba(240,234,234,255);
+  font-weight: 900;
+  border: solid rgba(240,234,234,255) 3px;
+  border-color: rgba(240,234,234,255);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+}
+
+

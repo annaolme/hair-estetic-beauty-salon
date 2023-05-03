@@ -1,0 +1,17 @@
+.bookbtn{
+    width: 200px;
+    height: 45px;
+    background-color:rgb(181,138,139) ;
+    color: RGB(49,25,13);
+    font-weight: 900;
+    border-color: RGB(49,25,13);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    position: fixed;
+    top: 170px;
+    right: -77px;
+    transform: rotate(90deg);
+    z-index: 1;
+  }
